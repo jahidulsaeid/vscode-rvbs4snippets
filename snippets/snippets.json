@@ -1,0 +1,12 @@
+{
+  "Bootstrap Alert With Header": {
+    "prefix": "rb-alert-header",
+    "body": [
+      "<div className=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
+      "    <h4 className=\"alert-heading\">${2:Header}</h4>",
+      "    ${3:Content}",
+      "</div>"
+    ],
+    "description": "Bootstrap Alert With Header"
+  }
+}

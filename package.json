@@ -1,0 +1,38 @@
+{
+    "name": "reactvanillabs4",
+    "displayName": "React Vanilla Bootstrap v4 Components",
+    "description": "This is an extension for Visual Studio Code that adds snippets for React Vanilla Bootstrap v4",
+    "version": "1.0.0",
+    "publisher": "Jahidul Islam Saeid",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jisaeid/vscode-rvbs4snippets"
+    },
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
