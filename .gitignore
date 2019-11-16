@@ -46,3 +46,5 @@ Thumbs.db
 /js/coverage/
 /node_modules/
 .vscode
+
+reactvanillabs4-1.0.0.vsix
