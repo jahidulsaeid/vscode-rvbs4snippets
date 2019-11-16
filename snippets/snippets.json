@@ -1,12 +1,1245 @@
 {
-  "Bootstrap Alert With Header": {
-    "prefix": "rb-alert-header",
-    "body": [
-      "<div className=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
-      "    <h4 className=\"alert-heading\">${2:Header}</h4>",
-      "    ${3:Content}",
-      "</div>"
-    ],
-    "description": "Bootstrap Alert With Header"
-  }
+	"rb-alert-header": {
+		"prefix": "rb-alert-header",
+		"body": [
+			"<div className=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
+			"\t<h4 className=\"alert-heading\">${2:Header}</h4>",
+			"\t${3:Content}",
+			"</div>"
+		]
+	},
+	"rb-alert": {
+		"prefix": "rb-alert",
+		"body": [
+			"<div className=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
+			"\t${2:Content}",
+			"</div>"
+		]
+	},
+	"rb-badge-pill": {
+		"prefix": "rb-badge-pill",
+		"body": [
+			"<span className=\"badge badge-pill badge-${1|primary,secondary,success,danger,warning,info,light,dark|}\">${2:Text}</span>"
+		]
+	},
+	"rb-badge": {
+		"prefix": "rb-badge",
+		"body": [
+			"<span className=\"badge badge-${1|primary,secondary,success,danger,warning,info,light,dark|}\">${2:Text}</span>"
+		]
+	},
+	"rb-breadcrumb": {
+		"prefix": "rb-breadcrumb",
+		"body": [
+			"<nav aria-label=\"${1:Page breadcrumb}\">",
+			"\t<ol className=\"breadcrumb\">",
+			"\t\t<li className=\"breadcrumb-item active\" aria-current=\"page\">${2:Item 1}</li>",
+			"\t\t<li className=\"breadcrumb-item\">${3:Item 2}</li>$0",
+			"\t</ol>",
+			"</nav>"
+		]
+	},
+	"rb-btn-group-vertical": {
+		"prefix": "rb-btn-group-vertical",
+		"body": [
+			"<div className=\"btn-group-vertical\" role=\"group\" aria-label=\"${1:Vertical button group}\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-btn-group": {
+		"prefix": "rb-btn-group",
+		"body": [
+			"<div className=\"btn-group\" role=\"group\" aria-label=\"${1:Button group}\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-btn-checkbox": {
+		"prefix": "rb-btn-checkbox",
+		"body": [
+			"<div className=\"btn-group-toggle\" data-toggle=\"buttons\">",
+			"\t<label className=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\">",
+			"\t\t<input type=\"checkbox\" /> ${2:Text}",
+			"\t</label>$0",
+			"</div>"
+		]
+	},
+	"rb-btn-radio": {
+		"prefix": "rb-btn-radio",
+		"body": [
+			"<div className=\"btn-group btn-group-toggle\" data-toggle=\"buttons\">",
+			"\t<label className=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\">",
+			"\t\t<input type=\"radio\" /> ${2:Text}",
+			"\t</label>$0",
+			"</div>"
+		]
+	},
+	"rb-btn": {
+		"prefix": "rb-btn",
+		"body": [
+			"<button className=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"${2|button,submit,reset|}\">${3:Text}</button>"
+		]
+	},
+	"rb-card-columns": {
+		"prefix": "rb-card-columns",
+		"body": [
+			"<div className=\"card-columns\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-card-deck": {
+		"prefix": "rb-card-deck",
+		"body": [
+			"<div className=\"card-deck\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-card-footer": {
+		"prefix": "rb-card-footer",
+		"body": [
+			"<div className=\"card\">",
+			"\t<div className=\"card-body\">",
+			"\t\t<h5 className=\"card-title\">${1:Title}</h5>",
+			"\t\t<p className=\"card-text\">${2:Content}</p>$0",
+			"\t</div>",
+			"\t<div className=\"card-footer\">",
+			"\t\t${3:Footer}",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-card-full": {
+		"prefix": "rb-card-full",
+		"body": [
+			"<div className=\"card\">",
+			"\t<div className=\"card-header\">",
+			"\t\t${1:Header}",
+			"\t</div>",
+			"\t<div className=\"card-body\">",
+			"\t\t<h5 className=\"card-title\">${2:Title}</h5>",
+			"\t\t<p className=\"card-text\">${3:Content}</p>$0",
+			"\t</div>",
+			"\t<div className=\"card-footer\">",
+			"\t\t${4:Footer}",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-card-group": {
+		"prefix": "rb-card-group",
+		"body": [
+			"<div className=\"card-group\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-card-header": {
+		"prefix": "rb-card-header",
+		"body": [
+			"<div className=\"card\">",
+			"\t<div className=\"card-header\">",
+			"\t\t${1:Header}",
+			"\t</div>",
+			"\t<div className=\"card-body\">",
+			"\t\t<h5 className=\"card-title\">${2:Title}</h5>",
+			"\t\t<p className=\"card-text\">${3:Content}</p>$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-card-img-bottom": {
+		"prefix": "rb-card-img-bottom",
+		"body": [
+			"<div className=\"card\">",
+			"\t<div className=\"card-body\">",
+			"\t\t<h5 className=\"card-title\">${1:Title}</h5>",
+			"\t\t<p className=\"card-text\">${2:Content}</p>$0",
+			"\t</div>",
+			"\t<img className=\"card-img-bottom\" src=\"$3\" alt=\"$4\" />",
+			"</div>"
+		]
+	},
+	"rb-card-img-full": {
+		"prefix": "rb-card-img-full",
+		"body": [
+			"<div className=\"card\">",
+			"\t<img className=\"card-img-top\" src=\"$1\" alt=\"$2\" />",
+			"\t<div className=\"card-body\">",
+			"\t\t<h5 className=\"card-title\">${3:Title}</h5>",
+			"\t\t<p className=\"card-text\">${4:Content}</p>$0",
+			"\t</div>",
+			"\t<img className=\"card-img-bottom\" src=\"$5\" alt=\"$6\" />",
+			"</div>"
+		]
+	},
+	"rb-card-img-overlay": {
+		"prefix": "rb-card-img-overlay",
+		"body": [
+			"<div className=\"card\">",
+			"\t<img className=\"card-img\" src=\"$1\" alt=\"$2\" />",
+			"\t<div className=\"card-img-overlay\">",
+			"\t\t<h5 className=\"card-title\">${3:Title}</h5>",
+			"\t\t<p className=\"card-text\">${4:Content}</p>$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-card-img-top": {
+		"prefix": "rb-card-img-top",
+		"body": [
+			"<div className=\"card\">",
+			"\t<img className=\"card-img-top\" src=\"$1\" alt=\"$2\" />",
+			"\t<div className=\"card-body\">",
+			"\t\t<h5 className=\"card-title\">${3:Title}</h5>",
+			"\t\t<p className=\"card-text\">${4:Content}</p>$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-card": {
+		"prefix": "rb-card",
+		"body": [
+			"<div className=\"card\">",
+			"\t<div className=\"card-body\">",
+			"\t\t<h5 className=\"card-title\">${1:Title}</h5>",
+			"\t\t<p className=\"card-text\">${2:Content}</p>$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-carousel-controls": {
+		"prefix": "rb-carousel-controls",
+		"body": [
+			"<div id=\"${1:my-carousel}\" className=\"carousel slide\" data-ride=\"carousel\">",
+			"\t<div className=\"carousel-inner\">",
+			"\t\t<div className=\"carousel-item active\">",
+			"\t\t\t<img className=\"d-block w-100\" src=\"$2\" alt=\"$3\" />",
+			"\t\t\t<div className=\"carousel-caption d-none d-md-block\">",
+			"\t\t\t\t<h5>${4:Title}</h5>",
+			"\t\t\t\t<p>${5:Text}</p>",
+			"\t\t\t</div>",
+			"\t\t</div>$0",
+			"\t</div>",
+			"\t<a className=\"carousel-control-prev\" href=\"#$1\" data-slide=\"prev\" role=\"button\">",
+			"\t\t<span className=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+			"\t\t<span className=\"sr-only\">${6:Previous}</span>",
+			"\t</a>",
+			"\t<a className=\"carousel-control-next\" href=\"#$1\" data-slide=\"next\" role=\"button\">",
+			"\t\t<span className=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+			"\t\t<span className=\"sr-only\">${7:Next}</span>",
+			"\t</a>",
+			"</div>"
+		]
+	},
+	"rb-carousel-full": {
+		"prefix": "rb-carousel-full",
+		"body": [
+			"<div id=\"${1:my-carousel}\" className=\"carousel slide\" data-ride=\"carousel\">",
+			"\t<ol className=\"carousel-indicators\">",
+			"\t\t<li className=\"active\" data-target=\"#$1\" data-slide-to=\"0\" aria-current=\"location\"></li>",
+			"\t\t<li data-target=\"#$1\" data-slide-to=\"1\"></li>",
+			"\t</ol>",
+			"\t<div className=\"carousel-inner\">",
+			"\t\t<div className=\"carousel-item active\">",
+			"\t\t\t<img className=\"d-block w-100\" src=\"$2\" alt=\"$3\" />",
+			"\t\t\t<div className=\"carousel-caption d-none d-md-block\">",
+			"\t\t\t\t<h5>${4:Title}</h5>",
+			"\t\t\t\t<p>${5:Text}</p>",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t\t<div className=\"carousel-item\">",
+			"\t\t\t<img className=\"d-block w-100\" src=\"$6\" alt=\"$7\" />",
+			"\t\t\t<div className=\"carousel-caption d-none d-md-block\">",
+			"\t\t\t\t<h5>${8:Title}</h5>",
+			"\t\t\t\t<p>${9:Text}</p>",
+			"\t\t\t</div>",
+			"\t\t</div>$0",
+			"\t</div>",
+			"\t<a className=\"carousel-control-prev\" href=\"#$1\" data-slide=\"prev\" role=\"button\">",
+			"\t\t<span className=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+			"\t\t<span className=\"sr-only\">${10:Previous}</span>",
+			"\t</a>",
+			"\t<a className=\"carousel-control-next\" href=\"#$1\" data-slide=\"next\" role=\"button\">",
+			"\t\t<span className=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+			"\t\t<span className=\"sr-only\">${11:Next}</span>",
+			"\t</a>",
+			"</div>"
+		]
+	},
+	"rb-carousel-indicators": {
+		"prefix": "rb-carousel-indicators",
+		"body": [
+			"<div id=\"${1:my-carousel}\" className=\"carousel slide\" data-ride=\"carousel\">",
+			"\t<ol className=\"carousel-indicators\">",
+			"\t\t<li className=\"active\" data-target=\"#$1\" data-slide-to=\"0\" aria-current=\"location\"></li>",
+			"\t\t<li data-target=\"#$1\" data-slide-to=\"1\"></li>",
+			"\t</ol>",
+			"\t<div className=\"carousel-inner\">",
+			"\t\t<div className=\"carousel-item active\">",
+			"\t\t\t<img className=\"d-block w-100\" src=\"$2\" alt=\"$3\" />",
+			"\t\t\t<div className=\"carousel-caption d-none d-md-block\">",
+			"\t\t\t\t<h5>${4:Title}</h5>",
+			"\t\t\t\t<p>${5:Text}</p>",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t\t<div className=\"carousel-item\">",
+			"\t\t\t<img className=\"d-block w-100\" src=\"$6\" alt=\"$7\" />",
+			"\t\t\t<div className=\"carousel-caption d-none d-md-block\">",
+			"\t\t\t\t<h5>${8:Title}</h5>",
+			"\t\t\t\t<p>${9:Text}</p>",
+			"\t\t\t</div>",
+			"\t\t</div>$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-carousel": {
+		"prefix": "rb-carousel",
+		"body": [
+			"<div id=\"${1:my-carousel}\" className=\"carousel slide\" data-ride=\"carousel\">",
+			"\t<div className=\"carousel-inner\">",
+			"\t\t<div className=\"carousel-item active\">",
+			"\t\t\t<img className=\"d-block w-100\" src=\"$2\" alt=\"$3\" />",
+			"\t\t\t<div className=\"carousel-caption d-none d-md-block\">",
+			"\t\t\t\t<h5>${4:Title}</h5>",
+			"\t\t\t\t<p>${5:Text}</p>",
+			"\t\t\t</div>",
+			"\t\t</div>$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-collapse": {
+		"prefix": "rb-collapse",
+		"body": [
+			"<button className=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|}\" data-target=\"#${1:my-collapse}\" data-toggle=\"collapse\" aria-expanded=\"false\" aria-controls=\"$1\">${3:Text}</button>",
+			"<div id=\"$1\" className=\"collapse\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-dropdown-menu": {
+		"prefix": "rb-dropdown-menu",
+		"body": [
+			"<div className=\"dropdown-menu\">",
+			"\t<a className=\"dropdown-item active\" href=\"#\">${1:Text}</a>$0",
+			"</div>"
+		]
+	},
+	"rb-dropdown-split": {
+		"prefix": "rb-dropdown-split",
+		"body": [
+			"<div className=\"btn-group ${2|dropdown,dropup,dropright,dropleft|}\">",
+			"\t<button className=\"btn btn-${3|primary,secondary,success,danger,warning,info,light,dark,link|}\">${4:Text}</button>",
+			"\t<button id=\"${1:my-dropdown}\" className=\"btn btn-$3 dropdown-toggle dropdown-toggle-split\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">",
+			"\t\t<span className=\"sr-only\">Toggle dropdown</span>",
+			"\t</button>",
+			"\t<div className=\"dropdown-menu\" aria-labelledby=\"$1\">",
+			"\t\t<a className=\"dropdown-item active\" href=\"#\">${5:Text}</a>$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-dropdown": {
+		"prefix": "rb-dropdown",
+		"body": [
+			"<div className=\"${2|dropdown,dropup,dropright,dropleft|}\">",
+			"\t<button id=\"${1:my-dropdown}\" className=\"btn btn-${3|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">${4:Text}</button>",
+			"\t<div className=\"dropdown-menu\" aria-labelledby=\"$1\">",
+			"\t\t<a className=\"dropdown-item active\" href=\"#\">${5:Text}</a>$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-form-check-inline": {
+		"prefix": "rb-form-check-inline",
+		"body": [
+			"<div className=\"form-check form-check-inline\">",
+			"\t<input id=\"${1:my-input}\" className=\"form-check-input\" type=\"${2|checkbox,radio|}\" name=\"$3\" value=\"${4:true}\" />",
+			"\t<label for=\"$1\" className=\"form-check-label\">${5:Text}</label>",
+			"</div>"
+		]
+	},
+	"rb-form-check": {
+		"prefix": "rb-form-check",
+		"body": [
+			"<div className=\"form-check\">",
+			"\t<input id=\"${1:my-input}\" className=\"form-check-input\" type=\"${2|checkbox,radio|}\" name=\"$3\" value=\"${4:true}\" />",
+			"\t<label for=\"$1\" className=\"form-check-label\">${5:Text}</label>",
+			"</div>"
+		]
+	},
+	"rb-form-custom-check-inline": {
+		"prefix": "rb-form-custom-check-inline",
+		"body": [
+			"<div className=\"custom-control custom-${2|checkbox,radio|} custom-control-inline\">",
+			"\t<input id=\"${1:my-input}\" className=\"custom-control-input\" type=\"${2|checkbox,radio|}\" name=\"$3\" value=\"${4:true}\" />",
+			"\t<label for=\"$1\" className=\"custom-control-label\">${5:Text}</label>",
+			"</div>"
+		]
+	},
+	"rb-form-custom-check": {
+		"prefix": "rb-form-custom-check",
+		"body": [
+			"<div className=\"custom-control custom-${2|checkbox,radio|}\">",
+			"\t<input id=\"${1:my-input}\" className=\"custom-control-input\" type=\"${2|checkbox,radio|}\" name=\"$3\" value=\"${4:true}\" />",
+			"\t<label for=\"$1\" className=\"custom-control-label\">${5:Text}</label>",
+			"</div>"
+		]
+	},
+	"rb-form-custom-file": {
+		"prefix": "rb-form-custom-file",
+		"body": [
+			"<div className=\"custom-file\">",
+			"\t<input id=\"${1:my-input}\" className=\"custom-file-input\" type=\"file\" name=\"$2\" />",
+			"\t<label for=\"$1\" className=\"custom-file-label\">${3:Text}</label>",
+			"</div>"
+		]
+	},
+	"rb-form-custom-range": {
+		"prefix": "rb-form-custom-range",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-input}\">${5:Text}</label>",
+			"\t<input id=\"$1\" className=\"custom-range\" type=\"range\" name=\"$2\" min=\"${3:0}\" max=\"${4:100}\" />",
+			"</div>"
+		]
+	},
+	"rb-form-custom-select-multiple": {
+		"prefix": "rb-form-custom-select-multiple",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-select}\">${3:Text}</label>",
+			"\t<select id=\"$1\" className=\"custom-select\" name=\"$2\" multiple>",
+			"\t\t<option>${4:Text}</option>$0",
+			"\t</select>",
+			"</div>"
+		]
+	},
+	"rb-form-custom-select": {
+		"prefix": "rb-form-custom-select",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-select}\">${3:Text}</label>",
+			"\t<select id=\"$1\" className=\"custom-select\" name=\"$2\">",
+			"\t\t<option>${4:Text}</option>$0",
+			"\t</select>",
+			"</div>"
+		]
+	},
+	"rb-form-custom-switch": {
+		"prefix": "rb-form-custom-switch",
+		"body": [
+			"<div className=\"custom-control custom-switch\">",
+			"\t<input id=\"${1:my-input}\" className=\"custom-control-input\" type=\"checkbox\" name=\"$2\" value=\"${3:true}\" />",
+			"\t<label for=\"$1\" className=\"custom-control-label\">${4:Text}</label>",
+			"</div>"
+		]
+	},
+	"rb-form-enctype-inline": {
+		"prefix": "rb-form-enctype-inline",
+		"body": [
+			"<form className=\"form-inline\" method=\"${1|get,post|}\" action=\"$2\" enctype=\"${3|multipart/form-data,application/x-www-form-urlencoded,text/plain|}\">",
+			"\t$0",
+			"</form>"
+		]
+	},
+	"rb-form-enctype": {
+		"prefix": "rb-form-enctype",
+		"body": [
+			"<form method=\"${1|get,post|}\" action=\"$2\" enctype=\"${3|multipart/form-data,application/x-www-form-urlencoded,text/plain|}\">",
+			"\t$0",
+			"</form>"
+		]
+	},
+	"rb-form-file": {
+		"prefix": "rb-form-file",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-input}\">${3:Text}</label>",
+			"\t<input id=\"$1\" className=\"form-control-file\" type=\"file\" name=\"$2\" />",
+			"</div>"
+		]
+	},
+	"rb-form-group": {
+		"prefix": "rb-form-group",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-input}\">${4:Text}</label>",
+			"\t<input id=\"$1\" className=\"form-control\" type=\"${2|text,number,email,password|}\" name=\"$3\" />",
+			"</div>"
+		]
+	},
+	"rb-form-help": {
+		"prefix": "rb-form-help",
+		"body": [
+			"<small className=\"form-text text-muted\">${1:Content}</small>"
+		]
+	},
+	"rb-form-inline": {
+		"prefix": "rb-form-inline",
+		"body": [
+			"<form className=\"form-inline\" method=\"${1|get,post|}\" action=\"$2\">",
+			"\t$0",
+			"</form>"
+		]
+	},
+	"rb-form-invalid": {
+		"prefix": "rb-form-invalid",
+		"body": [
+			"<div className=\"invalid-${1|feedback,tooltip|}\">${2:Content}</div>"
+		]
+	},
+	"rb-form-range": {
+		"prefix": "rb-form-range",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-input}\">${5:Text}</label>",
+			"\t<input id=\"$1\" className=\"form-control-range\" type=\"range\" name=\"$2\" min=\"${3:0}\" max=\"${4:100}\" />",
+			"</div>"
+		]
+	},
+	"rb-form-select-multiple": {
+		"prefix": "rb-form-select-multiple",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-select}\">${3:Text}</label>",
+			"\t<select id=\"$1\" className=\"form-control\" name=\"$2\" multiple>",
+			"\t\t<option>${4:Text}</option>$0",
+			"\t</select>",
+			"</div>"
+		]
+	},
+	"rb-form-select": {
+		"prefix": "rb-form-select",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-select}\">${3:Text}</label>",
+			"\t<select id=\"$1\" className=\"form-control\" name=\"$2\">",
+			"\t\t<option>${4:Text}</option>$0",
+			"\t</select>",
+			"</div>"
+		]
+	},
+	"rb-form-textarea": {
+		"prefix": "rb-form-textarea",
+		"body": [
+			"<div className=\"form-group\">",
+			"\t<label for=\"${1:my-textarea}\">${4:Text}</label>",
+			"\t<textarea id=\"$1\" className=\"form-control\" name=\"$2\" rows=\"${3:3}\"></textarea>",
+			"</div>"
+		]
+	},
+	"rb-form-valid": {
+		"prefix": "rb-form-valid",
+		"body": [
+			"<div className=\"valid-${1|feedback,tooltip|}\">${2:Content}</div>"
+		]
+	},
+	"rb-form": {
+		"prefix": "rb-form",
+		"body": [
+			"<form method=\"${1|get,post|}\" action=\"$2\">",
+			"\t$0",
+			"</form>"
+		]
+	},
+	"rb-input-hidden-id": {
+		"prefix": "rb-input-hidden-id",
+		"body": [
+			"<input id=\"${1:my-input}\" type=\"hidden\" name=\"$2\" value=\"$3\" />"
+		]
+	},
+	"rb-input-hidden": {
+		"prefix": "rb-input-hidden",
+		"body": [
+			"<input type=\"hidden\" name=\"$1\" value=\"$2\" />"
+		]
+	},
+	"rb-input-id": {
+		"prefix": "rb-input-id",
+		"body": [
+			"<input id=\"${1:my-input}\" className=\"form-control\" type=\"${2|text,number,email,password|}\" name=\"$3\" />"
+		]
+	},
+	"rb-input": {
+		"prefix": "rb-input",
+		"body": [
+			"<input className=\"form-control\" type=\"${1|text,number,email,password|}\" name=\"$2\" />"
+		]
+	},
+	"rb-input-group-append": {
+		"prefix": "rb-input-group-append",
+		"body": [
+			"<div className=\"input-group\">",
+			"\t<input className=\"form-control\" type=\"${2|text,number,email,password|}\" name=\"$3\" placeholder=\"${4:Recipient's $2}\" aria-label=\"$4\" aria-describedby=\"${1:my-addon}\" />",
+			"\t<div className=\"input-group-append\">",
+			"\t\t<span className=\"input-group-text\" id=\"$1\">${5:Text}</span>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-input-group-full": {
+		"prefix": "rb-input-group-full",
+		"body": [
+			"<div className=\"input-group\">",
+			"\t<div className=\"input-group-prepend\">",
+			"\t\t<span className=\"input-group-text\">${4:Text}</span>",
+			"\t</div>",
+			"\t<input className=\"form-control\" type=\"${1|text,number,email,password|}\" name=\"$2\" placeholder=\"${3:Recipient's $1}\" aria-label=\"$3\" />",
+			"\t<div className=\"input-group-append\">",
+			"\t\t<span className=\"input-group-text\">${5:Text}</span>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-input-group-prepend": {
+		"prefix": "rb-input-group-prepend",
+		"body": [
+			"<div className=\"input-group\">",
+			"\t<div className=\"input-group-prepend\">",
+			"\t\t<span className=\"input-group-text\" id=\"${1:my-addon}\">${5:Text}</span>",
+			"\t</div>",
+			"\t<input className=\"form-control\" type=\"${2|text,number,email,password|}\" name=\"$3\" placeholder=\"${4:Recipient's $2}\" aria-label=\"$4\" aria-describedby=\"$1\" />",
+			"</div>"
+		]
+	},
+	"rb-jumbotron-fluid": {
+		"prefix": "rb-jumbotron-fluid",
+		"body": [
+			"<div className=\"jumbotron jumbotron-fluid\">",
+			"\t<h1 className=\"display-4\">${1:Title}</h1>",
+			"\t<p className=\"lead\">${2:Subtitle}</p>",
+			"\t<hr className=\"my-4\">",
+			"\t<p>${3:Content}</p>",
+			"</div>"
+		]
+	},
+	"rb-jumbotron": {
+		"prefix": "rb-jumbotron",
+		"body": [
+			"<div className=\"jumbotron\">",
+			"\t<h1 className=\"display-4\">${1:Title}</h1>",
+			"\t<p className=\"lead\">${2:Subtitle}</p>",
+			"\t<hr className=\"my-4\">",
+			"\t<p>${3:Content}</p>",
+			"</div>"
+		]
+	},
+	"rb-list-group-action-flush": {
+		"prefix": "rb-list-group-action-flush",
+		"body": [
+			"<ul className=\"list-group list-group-flush\">",
+			"\t<a className=\"list-group-item list-group-item-action active\" href=\"#\">${1:Text}</a>",
+			"\t<a className=\"list-group-item list-group-item-action disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">${2:Disabled item}</a>$0",
+			"</ul>"
+		]
+	},
+	"rb-list-group-action-horizontal": {
+		"prefix": "rb-list-group-action-horizontal",
+		"body": [
+			"<ul className=\"list-group list-group-horizontal\">",
+			"\t<a className=\"list-group-item list-group-item-action active\" href=\"#\">${1:Text}</a>",
+			"\t<a className=\"list-group-item list-group-item-action disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">${2:Disabled item}</a>$0",
+			"</ul>"
+		]
+	},
+	"rb-list-group-action": {
+		"prefix": "rb-list-group-action",
+		"body": [
+			"<ul className=\"list-group\">",
+			"\t<a className=\"list-group-item list-group-item-action active\" href=\"#\">${1:Text}</a>",
+			"\t<a className=\"list-group-item list-group-item-action disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">${2:Disabled item}</a>$0",
+			"</ul>"
+		]
+	},
+	"rb-list-group-flush": {
+		"prefix": "rb-list-group-flush",
+		"body": [
+			"<ul className=\"list-group list-group-flush\">",
+			"\t<li className=\"list-group-item active\">${1:Text}</li>",
+			"\t<li className=\"list-group-item disabled\" aria-disabled=\"true\">${2:Disabled item}</li>$0",
+			"</ul>"
+		]
+	},
+	"rb-list-group-horizontal": {
+		"prefix": "rb-list-group-horizontal",
+		"body": [
+			"<ul className=\"list-group list-group-horizontal\">",
+			"\t<li className=\"list-group-item active\">${1:Text}</li>",
+			"\t<li className=\"list-group-item disabled\" aria-disabled=\"true\">${2:Disabled item}</li>$0",
+			"</ul>"
+		]
+	},
+	"rb-list-group": {
+		"prefix": "rb-list-group",
+		"body": [
+			"<ul className=\"list-group\">",
+			"\t<li className=\"list-group-item active\">${1:Text}</li>",
+			"\t<li className=\"list-group-item disabled\" aria-disabled=\"true\">${2:Disabled item}</li>$0",
+			"</ul>"
+		]
+	},
+	"rb-media-left": {
+		"prefix": "rb-media-left",
+		"body": [
+			"<div className=\"media\">",
+			"\t<img className=\"align-self-${1|start,center,end|}\" src=\"$2\" alt=\"$3\" />",
+			"\t<div className=\"media-body\">",
+			"\t\t<h5 className=\"mb-0\">${4:Header}</h5>",
+			"\t\t${5:Content}",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-media-right": {
+		"prefix": "rb-media-right",
+		"body": [
+			"<div className=\"media\">",
+			"\t<div className=\"media-body\">",
+			"\t\t<h5 className=\"mb-0\">${2:Header}</h5>",
+			"\t\t${3:Content}",
+			"\t</div>",
+			"\t<img className=\"align-self-${1|start,center,end|}\" src=\"$4\" alt=\"$5\" />",
+			"</div>"
+		]
+	},
+	"rb-modal-center": {
+		"prefix": "rb-modal-center",
+		"body": [
+			"<div id=\"${1:my-modal}\" className=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">",
+			"\t<div className=\"modal-dialog modal-dialog-centered\" role=\"document\">",
+			"\t\t<div className=\"modal-content\">",
+			"\t\t\t<div className=\"modal-body\">",
+			"\t\t\t\t<p>${2:Content}</p>$0",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-modal-footer-center": {
+		"prefix": "rb-modal-footer-center",
+		"body": [
+			"<div id=\"${1:my-modal}\" className=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">",
+			"\t<div className=\"modal-dialog modal-dialog-centered\" role=\"document\">",
+			"\t\t<div className=\"modal-content\">",
+			"\t\t\t<div className=\"modal-body\">",
+			"\t\t\t\t<p>${2:Content}</p>$0",
+			"\t\t\t</div>",
+			"\t\t\t<div className=\"modal-footer\">",
+			"\t\t\t\t${3:Footer}",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-modal-footer": {
+		"prefix": "rb-modal-footer",
+		"body": [
+			"<div id=\"${1:my-modal}\" className=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">",
+			"\t<div className=\"modal-dialog\" role=\"document\">",
+			"\t\t<div className=\"modal-content\">",
+			"\t\t\t<div className=\"modal-body\">",
+			"\t\t\t\t<p>${2:Content}</p>$0",
+			"\t\t\t</div>",
+			"\t\t\t<div className=\"modal-footer\">",
+			"\t\t\t\t${3:Footer}",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-modal-full-center": {
+		"prefix": "rb-modal-full-center",
+		"body": [
+			"<div id=\"${1:my-modal}\" className=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"${2:my-modal-title}\" aria-hidden=\"true\">",
+			"\t<div className=\"modal-dialog modal-dialog-centered\" role=\"document\">",
+			"\t\t<div className=\"modal-content\">",
+			"\t\t\t<div className=\"modal-header\">",
+			"\t\t\t\t<h5 className=\"modal-title\" id=\"$2\">${3:Title}</h5>",
+			"\t\t\t\t<button className=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">",
+			"\t\t\t\t\t<span aria-hidden=\"true\">&times;</span>",
+			"\t\t\t\t</button>",
+			"\t\t\t</div>",
+			"\t\t\t<div className=\"modal-body\">",
+			"\t\t\t\t<p>${4:Content}</p>$0",
+			"\t\t\t</div>",
+			"\t\t\t<div className=\"modal-footer\">",
+			"\t\t\t\t${5:Footer}",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-modal-full": {
+		"prefix": "rb-modal-full",
+		"body": [
+			"<div id=\"${1:my-modal}\" className=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"${2:my-modal-title}\" aria-hidden=\"true\">",
+			"\t<div className=\"modal-dialog\" role=\"document\">",
+			"\t\t<div className=\"modal-content\">",
+			"\t\t\t<div className=\"modal-header\">",
+			"\t\t\t\t<h5 className=\"modal-title\" id=\"$2\">${3:Title}</h5>",
+			"\t\t\t\t<button className=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">",
+			"\t\t\t\t\t<span aria-hidden=\"true\">&times;</span>",
+			"\t\t\t\t</button>",
+			"\t\t\t</div>",
+			"\t\t\t<div className=\"modal-body\">",
+			"\t\t\t\t<p>${4:Content}</p>$0",
+			"\t\t\t</div>",
+			"\t\t\t<div className=\"modal-footer\">",
+			"\t\t\t\t${5:Footer}",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-modal-header-center": {
+		"prefix": "rb-modal-header-center",
+		"body": [
+			"<div id=\"${1:my-modal}\" className=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"${2:my-modal-title}\" aria-hidden=\"true\">",
+			"\t<div className=\"modal-dialog modal-dialog-centered\" role=\"document\">",
+			"\t\t<div className=\"modal-content\">",
+			"\t\t\t<div className=\"modal-header\">",
+			"\t\t\t\t<h5 className=\"modal-title\" id=\"$2\">${3:Title}</h5>",
+			"\t\t\t\t<button className=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">",
+			"\t\t\t\t\t<span aria-hidden=\"true\">&times;</span>",
+			"\t\t\t\t</button>",
+			"\t\t\t</div>",
+			"\t\t\t<div className=\"modal-body\">",
+			"\t\t\t\t<p>${4:Content}</p>$0",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-modal-header": {
+		"prefix": "rb-modal-header",
+		"body": [
+			"<div id=\"${1:my-modal}\" className=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"${2:my-modal-title}\" aria-hidden=\"true\">",
+			"\t<div className=\"modal-dialog\" role=\"document\">",
+			"\t\t<div className=\"modal-content\">",
+			"\t\t\t<div className=\"modal-header\">",
+			"\t\t\t\t<h5 className=\"modal-title\" id=\"$2\">${3:Title}</h5>",
+			"\t\t\t\t<button className=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">",
+			"\t\t\t\t\t<span aria-hidden=\"true\">&times;</span>",
+			"\t\t\t\t</button>",
+			"\t\t\t</div>",
+			"\t\t\t<div className=\"modal-body\">",
+			"\t\t\t\t<p>${4:Content}</p>$0",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-modal-toggle": {
+		"prefix": "rb-modal-toggle",
+		"body": [
+			"<button className=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"button\" data-toggle=\"modal\" data-target=\"#${2:my-modal}\">${3:Content}</button>"
+		]
+	},
+	"rb-modal": {
+		"prefix": "rb-modal",
+		"body": [
+			"<div id=\"${1:my-modal}\" className=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">",
+			"\t<div className=\"modal-dialog\" role=\"document\">",
+			"\t\t<div className=\"modal-content\">",
+			"\t\t\t<div className=\"modal-body\">",
+			"\t\t\t\t<p>${2:Content}</p>$0",
+			"\t\t\t</div>",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-navbar": {
+		"prefix": "rb-navbar",
+		"body": [
+			"<nav className=\"navbar navbar-expand-lg navbar-${1|light,dark|} bg-$1 ${2|fixed-top,fixed-bottom,sticky-top|}\">",
+			"\t<a className=\"navbar-brand\">${5:Brand}</a>",
+			"\t<button className=\"navbar-toggler\" data-target=\"#${3:my-nav}\" data-toggle=\"collapse\" aria-controls=\"$3\" aria-expanded=\"false\" aria-label=\"${4:Toggle navigation}\">",
+			"\t\t<span className=\"navbar-toggler-icon\"></span>",
+			"\t</button>",
+			"\t<div id=\"$3\" className=\"collapse navbar-collapse\">",
+			"\t\t<ul className=\"navbar-nav mr-auto\">",
+			"\t\t\t<li className=\"nav-item active\">",
+			"\t\t\t\t<a className=\"nav-link\" href=\"#\">${6:Item 1} <span className=\"sr-only\">(current)</span></a>",
+			"\t\t\t</li>",
+			"\t\t\t<li className=\"nav-item\">",
+			"\t\t\t\t<a className=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">${7:Item 2}</a>",
+			"\t\t\t</li>$0",
+			"\t\t</ul>",
+			"\t</div>",
+			"</nav>"
+		]
+	},
+	"rb-nav-fill": {
+		"prefix": "rb-nav-fill",
+		"body": [
+			"<nav className=\"nav nav-fill\">",
+			"\t<li className=\"nav-item\">",
+			"\t\t<a className=\"nav-link active\" href=\"#\">${1:Item 1}</a>",
+			"\t</li>",
+			"\t<li className=\"nav-item\">",
+			"\t\t<a className=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">${2:Item 2}</a>",
+			"\t</li>$0",
+			"</nav>"
+		]
+	},
+	"rb-nav-vertical": {
+		"prefix": "rb-nav-vertical",
+		"body": [
+			"<nav className=\"nav flex-column\">",
+			"\t<li className=\"nav-item\">",
+			"\t\t<a className=\"nav-link active\" href=\"#\">${1:Item 1}</a>",
+			"\t</li>",
+			"\t<li className=\"nav-item\">",
+			"\t\t<a className=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">${2:Item 2}</a>",
+			"\t</li>$0",
+			"</nav>"
+		]
+	},
+	"rb-nav": {
+		"prefix": "rb-nav",
+		"body": [
+			"<nav className=\"nav\">",
+			"\t<li className=\"nav-item\">",
+			"\t\t<a className=\"nav-link active\" href=\"#\">${1:Item 1}</a>",
+			"\t</li>",
+			"\t<li className=\"nav-item\">",
+			"\t\t<a className=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">${2:Item 2}</a>",
+			"\t</li>$0",
+			"</nav>"
+		]
+	},
+	"rb-pagination": {
+		"prefix": "rb-pagination",
+		"body": [
+			"<nav aria-label=\"${1:Page navigation}\">",
+			"\t<ul className=\"pagination\">",
+			"\t\t<li className=\"page-item active\" aria-current=\"page\">",
+			"\t\t\t<a className=\"page-link\" href=\"#\">${2:Page 1} <span className=\"sr-only\">(current)</span></a>",
+			"\t\t</li>",
+			"\t\t<li className=\"page-item disabled\">",
+			"\t\t\t<a className=\"page-link\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">${3:Page 2}</a>",
+			"\t\t</li>",
+			"\t\t<li className=\"page-item\">",
+			"\t\t\t<a className=\"page-link\" href=\"#\">${4:Page 3}</a>",
+			"\t\t</li>$0",
+			"\t</ul>",
+			"</nav>"
+		]
+	},
+	"rb-popover-title": {
+		"prefix": "rb-popover-title",
+		"body": [
+			"<button className=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"${2|button,submit,reset|}\" data-toggle=\"popover\" data-placement=\"${3|top,bottom,right,left|}\" data-trigger=\"focus\" title=\"${4:Title}\" data-content=\"${5:Content}\">${6:Text}</button>"
+		]
+	},
+	"rb-popover": {
+		"prefix": "rb-popover",
+		"body": [
+			"<button className=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"${2|button,submit,reset|}\" data-toggle=\"popover\" data-placement=\"${3|top,bottom,right,left|}\" data-trigger=\"focus\" data-content=\"${4:Content}\">${5:Text}</button>"
+		]
+	},
+	"rb-progress-striped": {
+		"prefix": "rb-progress-striped",
+		"body": [
+			"<div className=\"progress\">",
+			"\t<div className=\"progress-bar progress-bar-striped bg-primary\" style=\"width: ${1:25}%\" role=\"progressbar\" aria-valuenow=\"$1\" aria-valuemin=\"0\" aria-valuemax=\"100\">${2:Text}</div>",
+			"</div>"
+		]
+	},
+	"rb-progress": {
+		"prefix": "rb-progress",
+		"body": [
+			"<div className=\"progress\">",
+			"\t<div className=\"progress-bar bg-primary\" style=\"width: ${1:25}%\" role=\"progressbar\" aria-valuenow=\"$1\" aria-valuemin=\"0\" aria-valuemax=\"100\">${2:Text}</div>",
+			"</div>"
+		]
+	},
+	"rb-spinner-growing": {
+		"prefix": "rb-spinner-growing",
+		"body": [
+			"<div className=\"spinner-grow text-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
+			"\t<span className=\"sr-only\">${2:Loading...}</span>",
+			"</div>"
+		]
+	},
+	"rb-spinner": {
+		"prefix": "rb-spinner",
+		"body": [
+			"<div className=\"spinner-border text-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
+			"\t<span className=\"sr-only\">${2:Loading...}</span>",
+			"</div>"
+		]
+	},
+	"rb-toast": {
+		"prefix": "rb-toast",
+		"body": [
+			"<div className=\"toast\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">",
+			"\t<div className=\"toast-header\">",
+			"\t\t<img className=\"rounded mr-2\" src=\"$1\" alt=\"${2:Toast icon alternate text}\" />",
+			"\t\t<strong className=\"mr-auto\">${3:Title}</strong>",
+			"\t\t<small>${4:Note}</small>",
+			"\t\t<button type=\"button\" className=\"ml-2 mb-1 close\" data-dismiss=\"toast\" aria-label=\"Close\">",
+			"\t\t\t<span aria-hidden=\"true\">&times;</span>",
+			"\t\t</button>",
+			"\t</div>",
+			"\t<div className=\"toast-body\">",
+			"\t\t$0",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-figure": {
+		"prefix": "rb-figure",
+		"body": [
+			"<figure className=\"figure\">",
+			"\t<img className=\"figure-img img-fluid\" src=\"$2\" alt=\"$3\" />",
+			"\t<figcaption className=\"figure-caption\">${1:Content}</figcaption>",
+			"</figure>"
+		]
+	},
+	"rb-img-fluid": {
+		"prefix": "rb-img-fluid",
+		"body": [
+			"<img className=\"img-fluid\" src=\"$1\" alt=\"$2\" />"
+		]
+	},
+	"rb-img-thumbnail": {
+		"prefix": "rb-img-thumbnail",
+		"body": [
+			"<img className=\"img-thumbnail\" src=\"$1\" alt=\"$2\" />"
+		]
+	},
+	"rb-col": {
+		"prefix": "rb-col",
+		"body": [
+			"<div className=\"col\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-row": {
+		"prefix": "rb-row",
+		"body": [
+			"<div className=\"row\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-container-fluid": {
+		"prefix": "rb-container-fluid",
+		"body": [
+			"<div className=\"container-fluid\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-container": {
+		"prefix": "rb-container",
+		"body": [
+			"<div className=\"container\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-table-footer": {
+		"prefix": "rb-table-footer",
+		"body": [
+			"<table className=\"table table-${1|light,dark|}\">",
+			"\t<tbody>",
+			"\t\t<tr>",
+			"\t\t\t<td>$2</td>",
+			"\t\t</tr>$0",
+			"\t</tbody>",
+			"\t<tfoot>",
+			"\t\t<tr>",
+			"\t\t\t<th>#</th>",
+			"\t\t</tr>",
+			"\t</tfoot>",
+			"</table>"
+		]
+	},
+	"rb-table-full": {
+		"prefix": "rb-table-full",
+		"body": [
+			"<table className=\"table table-${1|light,dark|}\">",
+			"\t<thead className=\"thead-${2|light,dark|}\">",
+			"\t\t<tr>",
+			"\t\t\t<th>#</th>",
+			"\t\t</tr>",
+			"\t</thead>",
+			"\t<tbody>",
+			"\t\t<tr>",
+			"\t\t\t<td>$3</td>",
+			"\t\t</tr>$0",
+			"\t</tbody>",
+			"\t<tfoot>",
+			"\t\t<tr>",
+			"\t\t\t<th>#</th>",
+			"\t\t</tr>",
+			"\t</tfoot>",
+			"</table>"
+		]
+	},
+	"rb-table-header": {
+		"prefix": "rb-table-header",
+		"body": [
+			"<table className=\"table table-${1|light,dark|}\">",
+			"\t<thead className=\"thead-${2|light,dark|}\">",
+			"\t\t<tr>",
+			"\t\t\t<th>#</th>",
+			"\t\t</tr>",
+			"\t</thead>",
+			"\t<tbody>",
+			"\t\t<tr>",
+			"\t\t\t<td>$3</td>",
+			"\t\t</tr>$0",
+			"\t</tbody>",
+			"</table>"
+		]
+	},
+	"rb-table": {
+		"prefix": "rb-table",
+		"body": [
+			"<table className=\"table table-${1|light,dark|}\">",
+			"\t<tbody>",
+			"\t\t<tr>",
+			"\t\t\t<td>$2</td>",
+			"\t\t</tr>$0",
+			"\t</tbody>",
+			"</table>"
+		]
+	},
+	"rb-abbr-initialism": {
+		"prefix": "rb-abbr-initialism",
+		"body": [
+			"<abbr className=\"initialism\" title=\"${1:Title}\">${2:Text}</abbr>"
+		]
+	},
+	"rb-abbr": {
+		"prefix": "rb-abbr",
+		"body": [
+			"<abbr title=\"${1:Title}\">${2:Text}</abbr>"
+		]
+	},
+	"rb-blockquote-footer": {
+		"prefix": "rb-blockquote-footer",
+		"body": [
+			"<blockquote className=\"blockquote\">",
+			"\t<p className=\"mb-0\">${1:Text}</p>",
+			"\t<footer className=\"blockquote-footer\">${2:Footer}</footer>",
+			"</blockquote>"
+		]
+	},
+	"rb-blockquote": {
+		"prefix": "rb-blockquote",
+		"body": [
+			"<blockquote className=\"blockquote\">",
+			"\t<p className=\"mb-0\">${1:Text}</p>",
+			"</blockquote>"
+		]
+	},
+	"rb-display": {
+		"prefix": "rb-display",
+		"body": [
+			"<h1 className=\"display-${1|1,2,3,4|}\">${2:Text}</h1>"
+		]
+	},
+	"rb-list-inline": {
+		"prefix": "rb-list-inline",
+		"body": [
+			"<ul className=\"list-inline\">",
+			"\t<li className=\"list-inline-item\">${1:Text}</li>$0",
+			"</ul>"
+		]
+	},
+	"rb-list-unstyled": {
+		"prefix": "rb-list-unstyled",
+		"body": [
+			"<ul className=\"list-unstyled\">",
+			"\t<li>${1:Text}</li>$0",
+			"</ul>"
+		]
+	},
+	"rb-clearfix": {
+		"prefix": "rb-clearfix",
+		"body": [
+			"<div className=\"clearfix\">",
+			"\t<div className=\"float-left\">",
+			"\t\t$0",
+			"\t</div>",
+			"\t<div className=\"float-right\">",
+			"\t\t",
+			"\t</div>",
+			"</div>"
+		]
+	},
+	"rb-embed-responsive": {
+		"prefix": "rb-embed-responsive",
+		"body": [
+			"<div className=\"embed-responsive embed-responsive-${1|16by9,21by9,4by3,1by1|}\">",
+			"\t<iframe className=\"embed-responsive-item\" src=\"$2\"></iframe>",
+			"</div>"
+		]
+	},
+	"rb-flex-column-reverse": {
+		"prefix": "rb-flex-column-reverse",
+		"body": [
+			"<div className=\"d-flex flex-column-reverse\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-flex-column": {
+		"prefix": "rb-flex-column",
+		"body": [
+			"<div className=\"d-flex flex-column\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-flex-row-reverse": {
+		"prefix": "rb-flex-row-reverse",
+		"body": [
+			"<div className=\"d-flex flex-row-reverse\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-flex-row": {
+		"prefix": "rb-flex-row",
+		"body": [
+			"<div className=\"d-flex flex-row\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-float-left": {
+		"prefix": "rb-float-left",
+		"body": [
+			"<div className=\"float-left\">",
+			"\t$0",
+			"</div>"
+		]
+	},
+	"rb-float-right": {
+		"prefix": "rb-float-right",
+		"body": [
+			"<div className=\"float-right\">",
+			"\t$0",
+			"</div>"
+		]
+	}
 }
