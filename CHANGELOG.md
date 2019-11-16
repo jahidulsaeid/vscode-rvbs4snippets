@@ -2,6 +2,10 @@
 
 All notable changes to the "reactvanillabs4" extension will be documented in this file.
 
+## [1.0.2]
+
+- Add Snippets
+
 ## [1.0.1]
 
 - Change Logo
