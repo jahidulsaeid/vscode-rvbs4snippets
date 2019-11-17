@@ -1,5 +1,10 @@
 # Change Log
 
+
+## [1.0.4]
+
+- Add Gif in README File
+
 ## [1.0.3]
 
 - Major Problem Fix

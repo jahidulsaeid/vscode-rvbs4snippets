@@ -2,7 +2,7 @@
     "name": "reactvanillabs4",
     "displayName": "React Vanilla Bootstrap v4 Components",
     "description": "This is an extension for Visual Studio Code that adds snippets for React Vanilla Bootstrap v4",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "jisaeid",
     "icon": "images/icon.png",
     "repository": {
