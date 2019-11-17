@@ -1,8 +1,8 @@
-# React Vanilla Bootstrap v4 Components
+## React Vanilla Bootstrap v4 Components
 
 This is an extension for Visual Studio Code that adds snippets for React Vanilla Bootstrap v4
 
-## Snippets list
+### Snippets list
 
 You can find list of available snippets below:
 
@@ -124,10 +124,13 @@ You can find list of available snippets below:
 | `rb-float-left`                 | Float Left                                 |
 | `rb-float-right`                | Float Right                                |
 
-## Note
-This is extension is still under active development and doesn't support all of the React Strap Components. The most common ones are already added.
+### Contributing
+Feel free to submit a pull request if you find any bugs (to see a list of active issues, visit the [Issues section](https://github.com/Zaczero/bootstrap-v4-snippets/issues)).
+Please make sure all commits are properly documented.
 
-## Contribution
-Issues and PR's are always welcomed. 
 
-**Enjoy!**
+### Contact
+
+ Email: [jahidul.saeid@gmail.com](mailto:jahdiul.saeid@gmail.com)
+
+### **Enjoy!**
