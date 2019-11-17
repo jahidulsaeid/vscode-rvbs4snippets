@@ -1,8 +1,9 @@
 # React Vanilla Bootstrap v4 Components
 
 This is an extension for Visual Studio Code that adds snippets for React Vanilla Bootstrap v4
+<!-- ## Example -->
 
-![Usage](./images/snippets-usage.gif)
+<!-- ![Usage](./images/snippets-usage.gif) -->
 
 ## Install
 
@@ -16,119 +17,119 @@ You can find list of available snippets below:
 | --------------------            | ------------------------------------------ |
 | `rb-alert-header`               | Bootstrap Alert with Header                |
 | `rb-alert`                      | Bootstrap Alert                            |
-| `rb-badge-pill`                      | Bootstrap Alert                            |
-| `rb-badge`                      | Bootstrap Alert                            |
-| `rb-breadcrumb`                      | Bootstrap Alert                            |
-| `rb-btn-group-vertical`                      | Bootstrap Alert                            |
-| `rb-btn-group`                      | Bootstrap Alert                            |
-| `rb-btn-checkbox`                      | Bootstrap Alert                            |
-| `rb-btn-radio`                      | Bootstrap Alert                            |
-| `rb-btn`                      | Bootstrap Alert                            |
-| `rb-card-columns`                      | Bootstrap Alert                            |
-| `rb-card-deck`                      | Bootstrap Alert                            |
-| `rb-card-footer`                      | Bootstrap Alert                            |
-| `rb-card-full`                      | Bootstrap Alert                            |
-| `rb-card-group`                      | Bootstrap Alert                            |
-| `rb-card-header`                      | Bootstrap Alert                            |
-| `rb-card-img-bottom`                      | Bootstrap Alert                            |
-| `rb-card-img-full`                      | Bootstrap Alert                            |
-| `rb-card-img-overlay`                      | Bootstrap Alert                            |
-| `rb-card-img-top`                      | Bootstrap Alert                            |
-| `rb-card`                      | Bootstrap Alert                            |
-| `rb-carousel-controls`                      | Bootstrap Alert                            |
-| `rb-carousel-full`                      | Bootstrap Alert                            |
-| `rb-carousel-indicators`                      | Bootstrap Alert                            |
-| `rb-carousel`                      | Bootstrap Alert                            |
-| `rb-collapse`                      | Bootstrap Alert                            |
-| `rb-dropdown-menu`                      | Bootstrap Alert                            |
-| `rb-dropdown-split`                      | Bootstrap Alert                            |
-| `rb-dropdown`                      | Bootstrap Alert                            |
-| `rb-form-check-inline`                      | Bootstrap Alert                            |
-| `rb-form-check`                      | Bootstrap Alert                            |
-| `rb-form-custom-check-inline`                      | Bootstrap Alert                            |
-| `rb-form-custom-check`                      | Bootstrap Alert                            |
-| `rb-form-custom-file`                      | Bootstrap Alert                            |
-| `rb-form-custom-range`                      | Bootstrap Alert                            |
-| `rb-form-custom-select-multiple`                 | Bootstrap Alert                            |
-| `rb-form-custom-select`                 | Bootstrap Alert                            |
-| `rb-form-custom-switch`                 | Bootstrap Alert                            |
-| `rb-form-enctype-inline`                 | Bootstrap Alert                            |
-| `rb-form-enctype`                 | Bootstrap Alert                            |
-| `rb-form-file`                 | Bootstrap Alert                            |
-| `rb-form-group`                 | Bootstrap Alert                            |
-| `rb-form-help`                 | Bootstrap Alert                            |
-| `rb-form-inline`                 | Bootstrap Alert                            |
-| `rb-form-invalid`                 | Bootstrap Alert                            |
-| `rb-form-range`                 | Bootstrap Alert                            |
-| `rb-form-select-multiple`                 | Bootstrap Alert                            |
-| `rb-form-select`                 | Bootstrap Alert                            |
-| `rb-form-textarea`                 | Bootstrap Alert                            |
-| `rb-form-valid`                 | Bootstrap Alert                            |
-| `rb-form`                 | Bootstrap Alert                            |
-| `rb-input-hidden-id`                 | Bootstrap Alert                            |
-| `rb-input-hidden`                 | Bootstrap Alert                            |
-| `rb-input-id`                 | Bootstrap Alert                            |
-| `rb-input`                 | Bootstrap Alert                            |
-| `rb-input-group-append`                 | Bootstrap Alert                            |
-| `rb-input-group-full`                 | Bootstrap Alert                            |
-| `rb-input-group-prepend`                 | Bootstrap Alert                            |
-| `rb-jumbotron-fluid`                 | Bootstrap Alert                            |
-| `rb-jumbotron`                 | Bootstrap Alert                            |
-| `rb-list-group-action-flush`                 | Bootstrap Alert                            |
-| `rb-list-group-action-horizontal`                 | Bootstrap Alert                            |
-| `rb-list-group-action`                 | Bootstrap Alert                            |
-| `rb-list-group-flush`                 | Bootstrap Alert                            |
-| `rb-list-group-horizontal`                 | Bootstrap Alert                            |
-| `rb-list-group`                 | Bootstrap Alert                            |
-| `rb-media-left`                 | Bootstrap Alert                            |
-| `rb-media-right`                 | Bootstrap Alert                            |
-| `rb-modal-center`                 | Bootstrap Alert                            |
-| `rb-modal-footer-center`                 | Bootstrap Alert                            |
-| `rb-modal-footer`                 | Bootstrap Alert                            |
-| `rb-modal-full-center`                 | Bootstrap Alert                            |
-| `rb-modal-full`                 | Bootstrap Alert                            |
-| `rb-modal-header-center`                 | Bootstrap Alert                            |
-| `rb-modal-header`                 | Bootstrap Alert                            |
-| `rb-modal-toggle`                 | Bootstrap Alert                            |
-| `rb-modal`                 | Bootstrap Alert                            |
-| `rb-navbar`                 | Bootstrap Alert                            |
-| `rb-nav-fill`                 | Bootstrap Alert                            |
-| `rb-nav-vertical`                 | Bootstrap Alert                            |
-| `rb-nav`                 | Bootstrap Alert                            |
-| `rb-pagination`                 | Bootstrap Alert                            |
-| `rb-popover-title`                 | Bootstrap Alert                            |
-| `rb-popover`                 | Bootstrap Alert                            |
-| `rb-progress-striped`                 | Bootstrap Alert                            |
-| `rb-progress`                 | Bootstrap Alert                            |
-| `rb-spinner-growing`                 | Bootstrap Alert                            |
-| `rb-spinner`                 | Bootstrap Alert                            |
-| `rb-toast`                 | Bootstrap Alert                            |
-| `rb-figure`                 | Bootstrap Alert                            |
-| `rb-img-fluid`                 | Bootstrap Alert                            |
-| `rb-img-thumbnail`                 | Bootstrap Alert                            |
-| `rb-col`                 | Bootstrap Alert                            |
-| `rb-row`                 | Bootstrap Alert                            |
-| `rb-container-fluid`                 | Bootstrap Alert                            |
-| `rb-container`                 | Bootstrap Alert                            |
-| `rb-table-footer`                 | Bootstrap Alert                            |
-| `rb-table-full`                 | Bootstrap Alert                            |
-| `rb-table-header`                 | Bootstrap Alert                            |
-| `rb-table`                 | Bootstrap Alert                            |
-| `rb-abbr-initialism`                 | Bootstrap Alert                            |
-| `rb-abbr`                 | Bootstrap Alert                            |
-| `rb-blockquote-footer`                 | Bootstrap Alert                            |
-| `rb-blockquote`                 | Bootstrap Alert                            |
-| `rb-display`                 | Bootstrap Alert                            |
-| `rb-list-inline`                 | Bootstrap Alert                            |
-| `rb-list-unstyled`                 | Bootstrap Alert                            |
-| `rb-clearfix`                 | Bootstrap Alert                            |
-| `rb-embed-responsive`                 | Bootstrap Alert                            |
-| `rb-flex-column-reverse`                 | Bootstrap Alert                            |
-| `rb-flex-column`                 | Bootstrap Alert                            |
-| `rb-flex-row-reverse`                 | Bootstrap Alert                            |
-| `rb-flex-row`                 | Bootstrap Alert                            |
-| `rb-float-left`                 | Bootstrap Alert                            |
-| `rb-float-right`                 | Bootstrap Alert                            |
+| `rb-badge-pill`                 | Bootstrap Badge Pill                       |
+| `rb-badge`                      | Bootstrap Badge                            |
+| `rb-breadcrumb`                 | Bootstrap Breadcrumb                       |
+| `rb-btn-group-vertical`         | Bootstrap Button Group Vertical            |
+| `rb-btn-group`                  | Bootstrap Button Group                     |
+| `rb-btn-checkbox`               | Bootstrap Button Checkbox                  |
+| `rb-btn-radio`                  | Bootstrap Button Radio                     |
+| `rb-btn`                        | Bootstrap Button                           |
+| `rb-card-columns`               | Bootstrap Card Columns                     |
+| `rb-card-deck`                  | Bootstrap Card Deck                        |
+| `rb-card-footer`                | Bootstrap Card Footer                      |
+| `rb-card-full`                  | Bootstrap Card Full                        |
+| `rb-card-group`                 | Bootstrap Card Group                       |
+| `rb-card-header`                | Bootstrap Card Header                      |
+| `rb-card-img-bottom`            | Bootstrap Card Image And Button            |
+| `rb-card-img-full`              | Bootstrap Card Image Full                  |
+| `rb-card-img-overlay`           | Bootstrap Card Image Overlay               |
+| `rb-card-img-top`               | Bootstrap Card Image Top                   |
+| `rb-card`                       | Bootstrap Card                             |
+| `rb-carousel-controls`          | Bootstrap Carousel Controls                |
+| `rb-carousel-full`              | Bootstrap Carousel Full                    |
+| `rb-carousel-indicators`        | Bootstrap Carousel indicators              |
+| `rb-carousel`                   | Bootstrap Carousel                         |
+| `rb-collapse`                   | Bootstrap Collapse                         |
+| `rb-dropdown-menu`              | Bootstrap Dropdown Menu                    |
+| `rb-dropdown-split`             | Bootstrap Dropdown Split                   |
+| `rb-dropdown`                   | Bootstrap Dropdown                         |
+| `rb-form-check-inline`          | Bootstrap Form Check Inline                |
+| `rb-form-check`                 | Bootstrap Form Check                       |
+| `rb-form-custom-check-inline`   | Bootstrap Form Custom Check Inline         |
+| `rb-form-custom-check`          | Bootstrap Form Custom Check                |
+| `rb-form-custom-file`           | Bootstrap Form Custom File                 |
+| `rb-form-custom-range`          | Bootstrap Form Custom Range                |
+| `rb-form-custom-select-multiple`| Bootstrap Form Custom Select Multiple      |
+| `rb-form-custom-select`         | Bootstrap Form Custom Select               |
+| `rb-form-custom-switch`         | Bootstrap Form Custom Switch               |
+| `rb-form-enctype-inline`        | Bootstrap Form Enctype Inline              |
+| `rb-form-enctype`               | Bootstrap Form Enctype                     |
+| `rb-form-file`                  | Bootstrap Form File                        |
+| `rb-form-group`                 | Bootstrap Form Group                       |
+| `rb-form-help`                  | Bootstrap Form Help                        |
+| `rb-form-inline`                | Bootstrap Form Inline                      |
+| `rb-form-invalid`               | Bootstrap Form Invalid                     |
+| `rb-form-range`                 | Bootstrap Form Range                       |
+| `rb-form-select-multiple`       | Bootstrap Form Select Multiple             |
+| `rb-form-select`                | Bootstrap Form Select                      |
+| `rb-form-textarea`              | Bootstrap Textarea                         |
+| `rb-form-valid`                 | Bootstrap Form Valid                       |
+| `rb-form`                       | Bootstrap Form                             |
+| `rb-input-hidden-id`            | Input Hidden Id                            |
+| `rb-input-hidden`               | Input Hidden                               |
+| `rb-input-id`                   | Input Id                                   |
+| `rb-input`                      | Input                                      |
+| `rb-input-group-append`         | Input Group Append                         |
+| `rb-input-group-full`           | Input Group Full                           |
+| `rb-input-group-prepend`        | Input Group Prepend                        |
+| `rb-jumbotron-fluid`            | Jumbotron Fluid                            |
+| `rb-jumbotron`                  | Jumbotron                                  |
+| `rb-list-group-action-flush`    | List Group Action Flush                    |
+| `rb-list-group-action-horizontal`| List Group Action Flush                   |
+| `rb-list-group-action`          | List Group Action                          |
+| `rb-list-group-flush`           | List Group Flush                           |
+| `rb-list-group-horizontal`      | List Group Horizontal                      |
+| `rb-list-group`                 | List Group                                 |
+| `rb-media-left`                 | Media Left                                 |
+| `rb-media-right`                | Media Right                                |
+| `rb-modal-center`               | Media Center                               |
+| `rb-modal-footer-center`        | Model Footer Center                        |
+| `rb-modal-footer`               | Model Footer                               |
+| `rb-modal-full-center`          | Modal Full Center                          |
+| `rb-modal-full`                 | Modal Full                                 |
+| `rb-modal-header-center`        | Modal Header Center                        |
+| `rb-modal-header`               | Modal Header                               |
+| `rb-modal-toggle`               | Modal Toggle                               |
+| `rb-modal`                      | Bootstrap Modal                            |
+| `rb-navbar`                     | Bootstrap Navbar                           |
+| `rb-nav-fill`                   | Bootstrap Fill Nav                         |
+| `rb-nav-vertical`               | Bootstrap Vertical Nav                     |
+| `rb-nav`                        | Bootstrap Nav                            |
+| `rb-pagination`                 | Bootstrap Pagination                       |
+| `rb-popover-title`              | Bootstrap Popover Title                    |
+| `rb-popover`                    | Bootstrap Popover                          |
+| `rb-progress-striped`           | Bootstrap Progress Striped                 |
+| `rb-progress`                   | Bootstrap Progress                         |
+| `rb-spinner-growing`            | Bootstrap Spinner Growing                  |
+| `rb-spinner`                    | Bootstrap Spinner                          |
+| `rb-toast`                      | Bootstrap Toast                            |
+| `rb-figure`                     | Bootstrap Figure                           |
+| `rb-img-fluid`                  | Bootstrap Fluid Image                      |
+| `rb-img-thumbnail`              | Bootstrap Thumbnail Image                  |
+| `rb-col`                        | Bootstrap Col                              |
+| `rb-row`                        | Bootstrap Row                              |
+| `rb-container-fluid`            | Bootstrap Fluid Container                  |
+| `rb-container`                  | Bootstrap Container                        |
+| `rb-table-footer`               | Bootstrap Table                            |
+| `rb-table-full`                 | Bootstrap Table Full                       |
+| `rb-table-header`               | Bootstrap Table Header                     |
+| `rb-table`                      | Bootstrap Table                            |
+| `rb-abbr-initialism`            | Abbr initialism                            |
+| `rb-abbr`                       | Abbr Tag                                   |
+| `rb-blockquote-footer`          | Blockquote Footer                          |
+| `rb-blockquote`                 | Blockquote                                 |
+| `rb-display`                    | Display-Header                             |
+| `rb-list-inline`                | Inline List                                |
+| `rb-list-unstyled`              | Unstyle List                               |
+| `rb-clearfix`                   | Clearfix                                   |
+| `rb-embed-responsive`           | Responsive Embed                           |
+| `rb-flex-column-reverse`        | Flex Column Reverse                        |
+| `rb-flex-column`                | Flex Column                                |
+| `rb-flex-row-reverse`           | Flex row Reverse                           |
+| `rb-flex-row`                   | Flex Row                                   |
+| `rb-float-left`                 | Float Left                                 |
+| `rb-float-right`                | Float Right                                |
 
 ## Note
 This is extension is still under active development and doesn't support all of the React Strap Components. The most common ones are already added.

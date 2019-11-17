@@ -359,7 +359,7 @@
 		"body": [
 			"<div className=\"form-check form-check-inline\">",
 			"\t<input id=\"${1:my-input}\" className=\"form-check-input\" type=\"${2|checkbox,radio|}\" name=\"$3\" value=\"${4:true}\" />",
-			"\t<label for=\"$1\" className=\"form-check-label\">${5:Text}</label>",
+			"\t<label htmlFor=\"$1\" className=\"form-check-label\">${5:Text}</label>",
 			"</div>"
 		]
 	},
@@ -368,7 +368,7 @@
 		"body": [
 			"<div className=\"form-check\">",
 			"\t<input id=\"${1:my-input}\" className=\"form-check-input\" type=\"${2|checkbox,radio|}\" name=\"$3\" value=\"${4:true}\" />",
-			"\t<label for=\"$1\" className=\"form-check-label\">${5:Text}</label>",
+			"\t<label htmlFor=\"$1\" className=\"form-check-label\">${5:Text}</label>",
 			"</div>"
 		]
 	},
@@ -377,7 +377,7 @@
 		"body": [
 			"<div className=\"custom-control custom-${2|checkbox,radio|} custom-control-inline\">",
 			"\t<input id=\"${1:my-input}\" className=\"custom-control-input\" type=\"${2|checkbox,radio|}\" name=\"$3\" value=\"${4:true}\" />",
-			"\t<label for=\"$1\" className=\"custom-control-label\">${5:Text}</label>",
+			"\t<label htmlFor=\"$1\" className=\"custom-control-label\">${5:Text}</label>",
 			"</div>"
 		]
 	},
@@ -386,7 +386,7 @@
 		"body": [
 			"<div className=\"custom-control custom-${2|checkbox,radio|}\">",
 			"\t<input id=\"${1:my-input}\" className=\"custom-control-input\" type=\"${2|checkbox,radio|}\" name=\"$3\" value=\"${4:true}\" />",
-			"\t<label for=\"$1\" className=\"custom-control-label\">${5:Text}</label>",
+			"\t<label htmlFor=\"$1\" className=\"custom-control-label\">${5:Text}</label>",
 			"</div>"
 		]
 	},
@@ -395,7 +395,7 @@
 		"body": [
 			"<div className=\"custom-file\">",
 			"\t<input id=\"${1:my-input}\" className=\"custom-file-input\" type=\"file\" name=\"$2\" />",
-			"\t<label for=\"$1\" className=\"custom-file-label\">${3:Text}</label>",
+			"\t<label htmlFor=\"$1\" className=\"custom-file-label\">${3:Text}</label>",
 			"</div>"
 		]
 	},
@@ -403,7 +403,7 @@
 		"prefix": "rb-form-custom-range",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-input}\">${5:Text}</label>",
+			"\t<label htmlFor=\"${1:my-input}\">${5:Text}</label>",
 			"\t<input id=\"$1\" className=\"custom-range\" type=\"range\" name=\"$2\" min=\"${3:0}\" max=\"${4:100}\" />",
 			"</div>"
 		]
@@ -412,7 +412,7 @@
 		"prefix": "rb-form-custom-select-multiple",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-select}\">${3:Text}</label>",
+			"\t<label htmlFor=\"${1:my-select}\">${3:Text}</label>",
 			"\t<select id=\"$1\" className=\"custom-select\" name=\"$2\" multiple>",
 			"\t\t<option>${4:Text}</option>$0",
 			"\t</select>",
@@ -423,7 +423,7 @@
 		"prefix": "rb-form-custom-select",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-select}\">${3:Text}</label>",
+			"\t<label htmlFor=\"${1:my-select}\">${3:Text}</label>",
 			"\t<select id=\"$1\" className=\"custom-select\" name=\"$2\">",
 			"\t\t<option>${4:Text}</option>$0",
 			"\t</select>",
@@ -435,7 +435,7 @@
 		"body": [
 			"<div className=\"custom-control custom-switch\">",
 			"\t<input id=\"${1:my-input}\" className=\"custom-control-input\" type=\"checkbox\" name=\"$2\" value=\"${3:true}\" />",
-			"\t<label for=\"$1\" className=\"custom-control-label\">${4:Text}</label>",
+			"\t<label htmlFor=\"$1\" className=\"custom-control-label\">${4:Text}</label>",
 			"</div>"
 		]
 	},
@@ -459,7 +459,7 @@
 		"prefix": "rb-form-file",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-input}\">${3:Text}</label>",
+			"\t<label htmlFor=\"${1:my-input}\">${3:Text}</label>",
 			"\t<input id=\"$1\" className=\"form-control-file\" type=\"file\" name=\"$2\" />",
 			"</div>"
 		]
@@ -468,7 +468,7 @@
 		"prefix": "rb-form-group",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-input}\">${4:Text}</label>",
+			"\t<label htmlFor=\"${1:my-input}\">${4:Text}</label>",
 			"\t<input id=\"$1\" className=\"form-control\" type=\"${2|text,number,email,password|}\" name=\"$3\" />",
 			"</div>"
 		]
@@ -497,7 +497,7 @@
 		"prefix": "rb-form-range",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-input}\">${5:Text}</label>",
+			"\t<label htmlFor=\"${1:my-input}\">${5:Text}</label>",
 			"\t<input id=\"$1\" className=\"form-control-range\" type=\"range\" name=\"$2\" min=\"${3:0}\" max=\"${4:100}\" />",
 			"</div>"
 		]
@@ -506,7 +506,7 @@
 		"prefix": "rb-form-select-multiple",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-select}\">${3:Text}</label>",
+			"\t<label htmlFor=\"${1:my-select}\">${3:Text}</label>",
 			"\t<select id=\"$1\" className=\"form-control\" name=\"$2\" multiple>",
 			"\t\t<option>${4:Text}</option>$0",
 			"\t</select>",
@@ -517,7 +517,7 @@
 		"prefix": "rb-form-select",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-select}\">${3:Text}</label>",
+			"\t<label htmlFor=\"${1:my-select}\">${3:Text}</label>",
 			"\t<select id=\"$1\" className=\"form-control\" name=\"$2\">",
 			"\t\t<option>${4:Text}</option>$0",
 			"\t</select>",
@@ -528,7 +528,7 @@
 		"prefix": "rb-form-textarea",
 		"body": [
 			"<div className=\"form-group\">",
-			"\t<label for=\"${1:my-textarea}\">${4:Text}</label>",
+			"\t<label htmlFor=\"${1:my-textarea}\">${4:Text}</label>",
 			"\t<textarea id=\"$1\" className=\"form-control\" name=\"$2\" rows=\"${3:3}\"></textarea>",
 			"</div>"
 		]
