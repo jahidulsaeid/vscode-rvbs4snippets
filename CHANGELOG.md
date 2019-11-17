@@ -1,6 +1,9 @@
 # Change Log
 
-All notable changes to the "reactvanillabs4" extension will be documented in this file.
+## [1.0.3]
+
+- Major Problem Fix
+- Add Snippets List
 
 ## [1.0.2]
 

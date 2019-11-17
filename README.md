@@ -1,13 +1,6 @@
 # React Vanilla Bootstrap v4 Components
 
 This is an extension for Visual Studio Code that adds snippets for React Vanilla Bootstrap v4
-<!-- ## Example -->
-
-<!-- ![Usage](./images/snippets-usage.gif) -->
-
-## Install
-
-Install from [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=jisaeid.reactvanillabs4)
 
 ## Snippets list
 
